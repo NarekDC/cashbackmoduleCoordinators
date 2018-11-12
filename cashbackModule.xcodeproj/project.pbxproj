@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4CB6532199AA1E00280224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6522199AA1E00280224 /* AppDelegate.swift */; };
+		EB4CB6552199AA1E00280224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6542199AA1E00280224 /* ViewController.swift */; };
+		EB4CB6582199AA1E00280224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB6562199AA1E00280224 /* Main.storyboard */; };
+		EB4CB65A2199AA1F00280224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB6592199AA1F00280224 /* Assets.xcassets */; };
+		EB4CB65D2199AA1F00280224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */; };
+		EB4CB6682199AA2000280224 /* cashbackModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6672199AA2000280224 /* cashbackModuleTests.swift */; };
+		EB4CB6732199AA2000280224 /* cashbackModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6722199AA2000280224 /* cashbackModuleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4CB6642199AA2000280224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4CB6472199AA1E00280224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4CB64E2199AA1E00280224;
+			remoteInfo = cashbackModule;
+		};
+		EB4CB66F2199AA2000280224 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4CB6472199AA1E00280224 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4CB64E2199AA1E00280224;
+			remoteInfo = cashbackModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB4CB64F2199AA1E00280224 /* cashbackModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cashbackModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4CB6522199AA1E00280224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB4CB6542199AA1E00280224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB4CB6572199AA1E00280224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB4CB6592199AA1F00280224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB4CB65C2199AA1F00280224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB4CB65E2199AA1F00280224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4CB6632199AA2000280224 /* cashbackModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cashbackModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4CB6672199AA2000280224 /* cashbackModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cashbackModuleTests.swift; sourceTree = "<group>"; };
+		EB4CB6692199AA2000280224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4CB66E2199AA2000280224 /* cashbackModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cashbackModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4CB6722199AA2000280224 /* cashbackModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cashbackModuleUITests.swift; sourceTree = "<group>"; };
+		EB4CB6742199AA2000280224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4CB64C2199AA1E00280224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4CB6602199AA2000280224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4CB66B2199AA2000280224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4CB6462199AA1E00280224 = {
+			isa = PBXGroup;
+			children = (
+				EB4CB6512199AA1E00280224 /* cashbackModule */,
+				EB4CB6662199AA2000280224 /* cashbackModuleTests */,
+				EB4CB6712199AA2000280224 /* cashbackModuleUITests */,
+				EB4CB6502199AA1E00280224 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4CB6502199AA1E00280224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB64F2199AA1E00280224 /* cashbackModule.app */,
+				EB4CB6632199AA2000280224 /* cashbackModuleTests.xctest */,
+				EB4CB66E2199AA2000280224 /* cashbackModuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4CB6512199AA1E00280224 /* cashbackModule */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB6522199AA1E00280224 /* AppDelegate.swift */,
+				EB4CB6542199AA1E00280224 /* ViewController.swift */,
+				EB4CB6562199AA1E00280224 /* Main.storyboard */,
+				EB4CB6592199AA1F00280224 /* Assets.xcassets */,
+				EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */,
+				EB4CB65E2199AA1F00280224 /* Info.plist */,
+			);
+			path = cashbackModule;
+			sourceTree = "<group>";
+		};
+		EB4CB6662199AA2000280224 /* cashbackModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB6672199AA2000280224 /* cashbackModuleTests.swift */,
+				EB4CB6692199AA2000280224 /* Info.plist */,
+			);
+			path = cashbackModuleTests;
+			sourceTree = "<group>";
+		};
+		EB4CB6712199AA2000280224 /* cashbackModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB6722199AA2000280224 /* cashbackModuleUITests.swift */,
+				EB4CB6742199AA2000280224 /* Info.plist */,
+			);
+			path = cashbackModuleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4CB64E2199AA1E00280224 /* cashbackModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4CB6772199AA2000280224 /* Build configuration list for PBXNativeTarget "cashbackModule" */;
+			buildPhases = (
+				EB4CB64B2199AA1E00280224 /* Sources */,
+				EB4CB64C2199AA1E00280224 /* Frameworks */,
+				EB4CB64D2199AA1E00280224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cashbackModule;
+			productName = cashbackModule;
+			productReference = EB4CB64F2199AA1E00280224 /* cashbackModule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB4CB6622199AA2000280224 /* cashbackModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4CB67A2199AA2000280224 /* Build configuration list for PBXNativeTarget "cashbackModuleTests" */;
+			buildPhases = (
+				EB4CB65F2199AA2000280224 /* Sources */,
+				EB4CB6602199AA2000280224 /* Frameworks */,
+				EB4CB6612199AA2000280224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4CB6652199AA2000280224 /* PBXTargetDependency */,
+			);
+			name = cashbackModuleTests;
+			productName = cashbackModuleTests;
+			productReference = EB4CB6632199AA2000280224 /* cashbackModuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB4CB66D2199AA2000280224 /* cashbackModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4CB67D2199AA2000280224 /* Build configuration list for PBXNativeTarget "cashbackModuleUITests" */;
+			buildPhases = (
+				EB4CB66A2199AA2000280224 /* Sources */,
+				EB4CB66B2199AA2000280224 /* Frameworks */,
+				EB4CB66C2199AA2000280224 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4CB6702199AA2000280224 /* PBXTargetDependency */,
+			);
+			name = cashbackModuleUITests;
+			productName = cashbackModuleUITests;
+			productReference = EB4CB66E2199AA2000280224 /* cashbackModuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4CB6472199AA1E00280224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = club16;
+				TargetAttributes = {
+					EB4CB64E2199AA1E00280224 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EB4CB6622199AA2000280224 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB4CB64E2199AA1E00280224;
+					};
+					EB4CB66D2199AA2000280224 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EB4CB64E2199AA1E00280224;
+					};
+				};
+			};
+			buildConfigurationList = EB4CB64A2199AA1E00280224 /* Build configuration list for PBXProject "cashbackModule" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4CB6462199AA1E00280224;
+			productRefGroup = EB4CB6502199AA1E00280224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4CB64E2199AA1E00280224 /* cashbackModule */,
+				EB4CB6622199AA2000280224 /* cashbackModuleTests */,
+				EB4CB66D2199AA2000280224 /* cashbackModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4CB64D2199AA1E00280224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4CB65D2199AA1F00280224 /* LaunchScreen.storyboard in Resources */,
+				EB4CB65A2199AA1F00280224 /* Assets.xcassets in Resources */,
+				EB4CB6582199AA1E00280224 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4CB6612199AA2000280224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4CB66C2199AA2000280224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4CB64B2199AA1E00280224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4CB6552199AA1E00280224 /* ViewController.swift in Sources */,
+				EB4CB6532199AA1E00280224 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4CB65F2199AA2000280224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4CB6682199AA2000280224 /* cashbackModuleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4CB66A2199AA2000280224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4CB6732199AA2000280224 /* cashbackModuleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB4CB6652199AA2000280224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4CB64E2199AA1E00280224 /* cashbackModule */;
+			targetProxy = EB4CB6642199AA2000280224 /* PBXContainerItemProxy */;
+		};
+		EB4CB6702199AA2000280224 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4CB64E2199AA1E00280224 /* cashbackModule */;
+			targetProxy = EB4CB66F2199AA2000280224 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB4CB6562199AA1E00280224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4CB6572199AA1E00280224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4CB65C2199AA1F00280224 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB4CB6752199AA2000280224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB4CB6762199AA2000280224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4CB6782199AA2000280224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cashbackModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idt.cashbackModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB4CB6792199AA2000280224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cashbackModule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idt.cashbackModule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB4CB67B2199AA2000280224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cashbackModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idt.cashbackModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cashbackModule.app/cashbackModule";
+			};
+			name = Debug;
+		};
+		EB4CB67C2199AA2000280224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cashbackModuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idt.cashbackModuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cashbackModule.app/cashbackModule";
+			};
+			name = Release;
+		};
+		EB4CB67E2199AA2000280224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cashbackModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idt.cashbackModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cashbackModule;
+			};
+			name = Debug;
+		};
+		EB4CB67F2199AA2000280224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = cashbackModuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.idt.cashbackModuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = cashbackModule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4CB64A2199AA1E00280224 /* Build configuration list for PBXProject "cashbackModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4CB6752199AA2000280224 /* Debug */,
+				EB4CB6762199AA2000280224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4CB6772199AA2000280224 /* Build configuration list for PBXNativeTarget "cashbackModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4CB6782199AA2000280224 /* Debug */,
+				EB4CB6792199AA2000280224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4CB67A2199AA2000280224 /* Build configuration list for PBXNativeTarget "cashbackModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4CB67B2199AA2000280224 /* Debug */,
+				EB4CB67C2199AA2000280224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4CB67D2199AA2000280224 /* Build configuration list for PBXNativeTarget "cashbackModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4CB67E2199AA2000280224 /* Debug */,
+				EB4CB67F2199AA2000280224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4CB6472199AA1E00280224 /* Project object */;
+}
