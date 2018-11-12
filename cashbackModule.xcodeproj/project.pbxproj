@@ -47,6 +47,7 @@
 		EB4CB66E2199AA2000280224 /* cashbackModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cashbackModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4CB6722199AA2000280224 /* cashbackModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cashbackModuleUITests.swift; sourceTree = "<group>"; };
 		EB4CB6742199AA2000280224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4CB6DD2199B0FD00280224 /* cashbackModule-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cashbackModule-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		EB4CB6462199AA1E00280224 = {
 			isa = PBXGroup;
 			children = (
+				EB4CB6DD2199B0FD00280224 /* cashbackModule-Bridging-Header.h */,
 				EB4CB6512199AA1E00280224 /* cashbackModule */,
 				EB4CB6662199AA2000280224 /* cashbackModuleTests */,
 				EB4CB6712199AA2000280224 /* cashbackModuleUITests */,
@@ -440,6 +442,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.idt.cashbackModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cashbackModule-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,6 +460,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.idt.cashbackModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "cashbackModule-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
