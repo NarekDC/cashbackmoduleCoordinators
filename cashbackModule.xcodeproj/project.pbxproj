@@ -14,6 +14,13 @@
 		EB4CB65D2199AA1F00280224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */; };
 		EB4CB6682199AA2000280224 /* cashbackModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6672199AA2000280224 /* cashbackModuleTests.swift */; };
 		EB4CB6732199AA2000280224 /* cashbackModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6722199AA2000280224 /* cashbackModuleUITests.swift */; };
+		EB4CB6E52199B41600280224 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6E22199B41600280224 /* NSObjectExtensions.swift */; };
+		EB4CB6E62199B41600280224 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6E32199B41600280224 /* UIViewExtensions.swift */; };
+		EB4CB6E72199B41600280224 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6E42199B41600280224 /* UIViewControllerExtension.swift */; };
+		EB4CB6E92199B5E800280224 /* StoryboardsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6E82199B5E800280224 /* StoryboardsEnum.swift */; };
+		EB4CB6EB2199B63E00280224 /* Locations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB6EA2199B63E00280224 /* Locations.storyboard */; };
+		EB4CB6ED2199B64900280224 /* Deals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB6EC2199B64900280224 /* Deals.storyboard */; };
+		EB4CB6EF2199B64F00280224 /* Followers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB6EE2199B64F00280224 /* Followers.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,13 @@
 		EB4CB6722199AA2000280224 /* cashbackModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cashbackModuleUITests.swift; sourceTree = "<group>"; };
 		EB4CB6742199AA2000280224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB4CB6DD2199B0FD00280224 /* cashbackModule-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cashbackModule-Bridging-Header.h"; sourceTree = "<group>"; };
+		EB4CB6E22199B41600280224 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
+		EB4CB6E32199B41600280224 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		EB4CB6E42199B41600280224 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		EB4CB6E82199B5E800280224 /* StoryboardsEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardsEnum.swift; sourceTree = "<group>"; };
+		EB4CB6EA2199B63E00280224 /* Locations.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Locations.storyboard; sourceTree = "<group>"; };
+		EB4CB6EC2199B64900280224 /* Deals.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Deals.storyboard; sourceTree = "<group>"; };
+		EB4CB6EE2199B64F00280224 /* Followers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Followers.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +113,10 @@
 		EB4CB6512199AA1E00280224 /* cashbackModule */ = {
 			isa = PBXGroup;
 			children = (
+				EB4CB6DF2199B37500280224 /* Sources */,
 				EB4CB6522199AA1E00280224 /* AppDelegate.swift */,
 				EB4CB6542199AA1E00280224 /* ViewController.swift */,
-				EB4CB6562199AA1E00280224 /* Main.storyboard */,
 				EB4CB6592199AA1F00280224 /* Assets.xcassets */,
-				EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */,
 				EB4CB65E2199AA1F00280224 /* Info.plist */,
 			);
 			path = cashbackModule;
@@ -125,6 +138,38 @@
 				EB4CB6742199AA2000280224 /* Info.plist */,
 			);
 			path = cashbackModuleUITests;
+			sourceTree = "<group>";
+		};
+		EB4CB6DF2199B37500280224 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB6E02199B37500280224 /* Storyboards */,
+				EB4CB6E12199B37500280224 /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		EB4CB6E02199B37500280224 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB6E82199B5E800280224 /* StoryboardsEnum.swift */,
+				EB4CB6562199AA1E00280224 /* Main.storyboard */,
+				EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */,
+				EB4CB6EA2199B63E00280224 /* Locations.storyboard */,
+				EB4CB6EC2199B64900280224 /* Deals.storyboard */,
+				EB4CB6EE2199B64F00280224 /* Followers.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EB4CB6E12199B37500280224 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB6E22199B41600280224 /* NSObjectExtensions.swift */,
+				EB4CB6E42199B41600280224 /* UIViewControllerExtension.swift */,
+				EB4CB6E32199B41600280224 /* UIViewExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +276,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4CB6ED2199B64900280224 /* Deals.storyboard in Resources */,
 				EB4CB65D2199AA1F00280224 /* LaunchScreen.storyboard in Resources */,
 				EB4CB65A2199AA1F00280224 /* Assets.xcassets in Resources */,
 				EB4CB6582199AA1E00280224 /* Main.storyboard in Resources */,
+				EB4CB6EF2199B64F00280224 /* Followers.storyboard in Resources */,
+				EB4CB6EB2199B63E00280224 /* Locations.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +307,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB4CB6552199AA1E00280224 /* ViewController.swift in Sources */,
+				EB4CB6E92199B5E800280224 /* StoryboardsEnum.swift in Sources */,
 				EB4CB6532199AA1E00280224 /* AppDelegate.swift in Sources */,
+				EB4CB6E72199B41600280224 /* UIViewControllerExtension.swift in Sources */,
+				EB4CB6E62199B41600280224 /* UIViewExtensions.swift in Sources */,
+				EB4CB6E52199B41600280224 /* NSObjectExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
