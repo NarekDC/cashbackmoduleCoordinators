@@ -8,6 +8,11 @@ final class CoordinatorFactoryImp: CoordinatorFactory {
     let coordinator = SettingsCoordinator(router: router(navController), factory: ModuleFactoryImp())
     return coordinator
   }
+    
+  func makeCashbackCoordinatorBox(router: Router) -> Coordinator & CashbackCoordinatorOutput {
+    let coordinator = CashbackCoordinator(router: router, factory: ModuleFactoryImp())
+    return coordinator
+  }
   
   private func router(_ navController: UINavigationController?) -> Router {
     return RouterImp(rootController: navigationController(navController))

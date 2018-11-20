@@ -1,0 +1,3 @@
+protocol DealsView: BaseView {
+  
+}

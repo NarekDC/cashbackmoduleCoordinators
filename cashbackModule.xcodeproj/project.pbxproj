@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EB4CB6532199AA1E00280224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6522199AA1E00280224 /* AppDelegate.swift */; };
-		EB4CB6552199AA1E00280224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6542199AA1E00280224 /* ViewController.swift */; };
 		EB4CB6582199AA1E00280224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB6562199AA1E00280224 /* Main.storyboard */; };
 		EB4CB65A2199AA1F00280224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB6592199AA1F00280224 /* Assets.xcassets */; };
 		EB4CB65D2199AA1F00280224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */; };
@@ -33,6 +32,19 @@
 		EB4CB71C2199C26000280224 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB7192199C25F00280224 /* SettingsController.swift */; };
 		EB4CB71D2199C26000280224 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB71A2199C26000280224 /* SettingsView.swift */; };
 		EB4CB71F2199C27400280224 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB71E2199C27400280224 /* Setting.swift */; };
+		EBD663E921A423660074F379 /* Cashback.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD663E821A423660074F379 /* Cashback.storyboard */; };
+		EBD663EC21A425B80074F379 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD663EB21A425B80074F379 /* Settings.storyboard */; };
+		EBD663F621A426780074F379 /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663EE21A426780074F379 /* LocationController.swift */; };
+		EBD663F721A426780074F379 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663EF21A426780074F379 /* LocationView.swift */; };
+		EBD663F821A426780074F379 /* CashbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663F021A426780074F379 /* CashbackView.swift */; };
+		EBD663F921A426780074F379 /* DealsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663F121A426780074F379 /* DealsController.swift */; };
+		EBD663FA21A426780074F379 /* DealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663F221A426780074F379 /* DealsView.swift */; };
+		EBD663FB21A426780074F379 /* CashbackCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663F321A426780074F379 /* CashbackCoordinator.swift */; };
+		EBD663FC21A426780074F379 /* CashbackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663F421A426780074F379 /* CashbackController.swift */; };
+		EBD663FD21A426780074F379 /* CashbackCoordinatorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663F521A426780074F379 /* CashbackCoordinatorOutput.swift */; };
+		EBD663FF21A426DD0074F379 /* CashbackModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663FE21A426DD0074F379 /* CashbackModuleFactory.swift */; };
+		EBD6640121A429560074F379 /* FollowersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6640021A429560074F379 /* FollowersController.swift */; };
+		EBD6640321A4299A0074F379 /* FollowersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6640221A4299A0074F379 /* FollowersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +67,6 @@
 /* Begin PBXFileReference section */
 		EB4CB64F2199AA1E00280224 /* cashbackModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cashbackModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4CB6522199AA1E00280224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB4CB6542199AA1E00280224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EB4CB6572199AA1E00280224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB4CB6592199AA1F00280224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4CB65C2199AA1F00280224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,6 +97,19 @@
 		EB4CB7192199C25F00280224 /* SettingsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
 		EB4CB71A2199C26000280224 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		EB4CB71E2199C27400280224 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		EBD663E821A423660074F379 /* Cashback.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cashback.storyboard; sourceTree = "<group>"; };
+		EBD663EB21A425B80074F379 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		EBD663EE21A426780074F379 /* LocationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
+		EBD663EF21A426780074F379 /* LocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		EBD663F021A426780074F379 /* CashbackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashbackView.swift; sourceTree = "<group>"; };
+		EBD663F121A426780074F379 /* DealsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsController.swift; sourceTree = "<group>"; };
+		EBD663F221A426780074F379 /* DealsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsView.swift; sourceTree = "<group>"; };
+		EBD663F321A426780074F379 /* CashbackCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashbackCoordinator.swift; sourceTree = "<group>"; };
+		EBD663F421A426780074F379 /* CashbackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashbackController.swift; sourceTree = "<group>"; };
+		EBD663F521A426780074F379 /* CashbackCoordinatorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashbackCoordinatorOutput.swift; sourceTree = "<group>"; };
+		EBD663FE21A426DD0074F379 /* CashbackModuleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashbackModuleFactory.swift; sourceTree = "<group>"; };
+		EBD6640021A429560074F379 /* FollowersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersController.swift; sourceTree = "<group>"; };
+		EBD6640221A4299A0074F379 /* FollowersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +163,6 @@
 			children = (
 				EB4CB6DF2199B37500280224 /* Sources */,
 				EB4CB6522199AA1E00280224 /* AppDelegate.swift */,
-				EB4CB6542199AA1E00280224 /* ViewController.swift */,
 				EB4CB6FE2199C00200280224 /* ApplicationCoordinator.swift */,
 				EB4CB6592199AA1F00280224 /* Assets.xcassets */,
 				EB4CB65E2199AA1F00280224 /* Info.plist */,
@@ -168,10 +191,10 @@
 		EB4CB6DF2199B37500280224 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				EB4CB6FB2199BF8E00280224 /* Base */,
 				EB4CB7162199C24700280224 /* Flows */,
 				EB4CB7112199C0E600280224 /* Presenters */,
 				EB4CB7002199C02B00280224 /* Factories */,
-				EB4CB6FB2199BF8E00280224 /* Base */,
 				EB4CB6F22199BF5500280224 /* Protocols */,
 				EB4CB6E02199B37500280224 /* Storyboards */,
 				EB4CB6E12199B37500280224 /* Extensions */,
@@ -185,6 +208,8 @@
 				EB4CB6E82199B5E800280224 /* StoryboardsEnum.swift */,
 				EB4CB6562199AA1E00280224 /* Main.storyboard */,
 				EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */,
+				EBD663E821A423660074F379 /* Cashback.storyboard */,
+				EBD663EB21A425B80074F379 /* Settings.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -220,10 +245,8 @@
 		EB4CB7002199C02B00280224 /* Factories */ = {
 			isa = PBXGroup;
 			children = (
-				EB4CB7032199C02B00280224 /* ModuleFactoryImp.swift */,
-				EB4CB7042199C02B00280224 /* SettingsModuleFactory.swift */,
-				EB4CB7072199C02B00280224 /* CoordinatorFactoryImp.swift */,
-				EB4CB7082199C02B00280224 /* CoordinatorFactory.swift */,
+				EBD6640821A42C5B0074F379 /* Implementations */,
+				EBD6640921A42C930074F379 /* Parts */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -240,12 +263,23 @@
 		EB4CB7162199C24700280224 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
-				EB4CB7172199C25000280224 /* CashbackFlow */,
+				EBD663EA21A425600074F379 /* Settings Flow */,
+				EB4CB7172199C25000280224 /* Cashback Flow */,
 			);
 			path = Flows;
 			sourceTree = "<group>";
 		};
-		EB4CB7172199C25000280224 /* CashbackFlow */ = {
+		EB4CB7172199C25000280224 /* Cashback Flow */ = {
+			isa = PBXGroup;
+			children = (
+				EBD663F321A426780074F379 /* CashbackCoordinator.swift */,
+				EBD663F521A426780074F379 /* CashbackCoordinatorOutput.swift */,
+				EBD663ED21A426780074F379 /* Controllers */,
+			);
+			path = "Cashback Flow";
+			sourceTree = "<group>";
+		};
+		EBD663EA21A425600074F379 /* Settings Flow */ = {
 			isa = PBXGroup;
 			children = (
 				EB4CB71E2199C27400280224 /* Setting.swift */,
@@ -253,7 +287,73 @@
 				EB4CB7182199C25F00280224 /* SettingsCoordinator.swift */,
 				EB4CB71A2199C26000280224 /* SettingsView.swift */,
 			);
-			path = CashbackFlow;
+			path = "Settings Flow";
+			sourceTree = "<group>";
+		};
+		EBD663ED21A426780074F379 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6640421A429B60074F379 /* Cashback */,
+				EBD6640521A429C00074F379 /* Deals */,
+				EBD6640621A429CA0074F379 /* Location */,
+				EBD6640721A429D20074F379 /* Followers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EBD6640421A429B60074F379 /* Cashback */ = {
+			isa = PBXGroup;
+			children = (
+				EBD663F421A426780074F379 /* CashbackController.swift */,
+				EBD663F021A426780074F379 /* CashbackView.swift */,
+			);
+			path = Cashback;
+			sourceTree = "<group>";
+		};
+		EBD6640521A429C00074F379 /* Deals */ = {
+			isa = PBXGroup;
+			children = (
+				EBD663F121A426780074F379 /* DealsController.swift */,
+				EBD663F221A426780074F379 /* DealsView.swift */,
+			);
+			path = Deals;
+			sourceTree = "<group>";
+		};
+		EBD6640621A429CA0074F379 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				EBD663EE21A426780074F379 /* LocationController.swift */,
+				EBD663EF21A426780074F379 /* LocationView.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		EBD6640721A429D20074F379 /* Followers */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6640021A429560074F379 /* FollowersController.swift */,
+				EBD6640221A4299A0074F379 /* FollowersView.swift */,
+			);
+			path = Followers;
+			sourceTree = "<group>";
+		};
+		EBD6640821A42C5B0074F379 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB7072199C02B00280224 /* CoordinatorFactoryImp.swift */,
+				EB4CB7032199C02B00280224 /* ModuleFactoryImp.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		EBD6640921A42C930074F379 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				EBD663FE21A426DD0074F379 /* CashbackModuleFactory.swift */,
+				EB4CB7042199C02B00280224 /* SettingsModuleFactory.swift */,
+				EB4CB7082199C02B00280224 /* CoordinatorFactory.swift */,
+			);
+			path = Parts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,7 +462,9 @@
 			files = (
 				EB4CB65D2199AA1F00280224 /* LaunchScreen.storyboard in Resources */,
 				EB4CB65A2199AA1F00280224 /* Assets.xcassets in Resources */,
+				EBD663E921A423660074F379 /* Cashback.storyboard in Resources */,
 				EB4CB6582199AA1E00280224 /* Main.storyboard in Resources */,
+				EBD663EC21A425B80074F379 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,25 +489,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB4CB6552199AA1E00280224 /* ViewController.swift in Sources */,
 				EB4CB71C2199C26000280224 /* SettingsController.swift in Sources */,
 				EB4CB6F82199BF5500280224 /* Presentable.swift in Sources */,
+				EBD6640321A4299A0074F379 /* FollowersView.swift in Sources */,
+				EBD663F621A426780074F379 /* LocationController.swift in Sources */,
 				EB4CB70B2199C02B00280224 /* ModuleFactoryImp.swift in Sources */,
+				EBD663FC21A426780074F379 /* CashbackController.swift in Sources */,
+				EBD663F821A426780074F379 /* CashbackView.swift in Sources */,
 				EB4CB71F2199C27400280224 /* Setting.swift in Sources */,
+				EBD663FF21A426DD0074F379 /* CashbackModuleFactory.swift in Sources */,
 				EB4CB71B2199C26000280224 /* SettingsCoordinator.swift in Sources */,
 				EB4CB7102199C02B00280224 /* CoordinatorFactory.swift in Sources */,
+				EBD663FD21A426780074F379 /* CashbackCoordinatorOutput.swift in Sources */,
 				EB4CB6FA2199BF5500280224 /* Coordinator.swift in Sources */,
 				EB4CB70C2199C02B00280224 /* SettingsModuleFactory.swift in Sources */,
 				EB4CB6E92199B5E800280224 /* StoryboardsEnum.swift in Sources */,
+				EBD663F921A426780074F379 /* DealsController.swift in Sources */,
+				EBD663F721A426780074F379 /* LocationView.swift in Sources */,
 				EB4CB7152199C0E600280224 /* Router.swift in Sources */,
+				EBD663FB21A426780074F379 /* CashbackCoordinator.swift in Sources */,
 				EB4CB70F2199C02B00280224 /* CoordinatorFactoryImp.swift in Sources */,
 				EB4CB6532199AA1E00280224 /* AppDelegate.swift in Sources */,
+				EBD663FA21A426780074F379 /* DealsView.swift in Sources */,
 				EB4CB7142199C0E600280224 /* RouterImp.swift in Sources */,
 				EB4CB6FD2199BFA100280224 /* BaseCoordinator.swift in Sources */,
 				EB4CB6E72199B41600280224 /* UIViewControllerExtension.swift in Sources */,
 				EB4CB6F92199BF5500280224 /* BaseView.swift in Sources */,
 				EB4CB6E62199B41600280224 /* UIViewExtensions.swift in Sources */,
 				EB4CB6E52199B41600280224 /* NSObjectExtensions.swift in Sources */,
+				EBD6640121A429560074F379 /* FollowersController.swift in Sources */,
 				EB4CB6FF2199C00200280224 /* ApplicationCoordinator.swift in Sources */,
 				EB4CB71D2199C26000280224 /* SettingsView.swift in Sources */,
 			);
@@ -583,7 +695,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D2W27ZXUB;
 				INFOPLIST_FILE = cashbackModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -601,7 +715,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3D2W27ZXUB;
 				INFOPLIST_FILE = cashbackModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

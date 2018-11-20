@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cashback Controller-->
+        <scene sceneID="oTY-ts-acO">
+            <objects>
+                <viewController storyboardIdentifier="CashbackController" id="P4u-tF-ytc" customClass="CashbackController" customModule="cashbackModule" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EXD-1A-Dts"/>
+                        <viewControllerLayoutGuide type="bottom" id="lHR-d0-Yi4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Edp-gK-DYZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBS-BG-tfp" userLabel="Deals">
+                                <rect key="frame" x="10" y="537" width="81" height="30"/>
+                                <state key="normal" title="Deals"/>
+                                <connections>
+                                    <action selector="dealsButtonClicked:" destination="P4u-tF-ytc" eventType="touchUpInside" id="faP-lb-ttn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5J-SN-7th" userLabel="Followers">
+                                <rect key="frame" x="92" y="537" width="191" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="9Cj-TQ-fBd"/>
+                                </constraints>
+                                <state key="normal" title="Followers"/>
+                                <connections>
+                                    <action selector="followerButtonClicked:" destination="P4u-tF-ytc" eventType="touchUpInside" id="7mS-Vu-lza"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fly-PV-KvS" userLabel="Location">
+                                <rect key="frame" x="174" y="537" width="191" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="191" id="qST-zQ-J1t"/>
+                                </constraints>
+                                <state key="normal" title="Location"/>
+                                <connections>
+                                    <action selector="locationButtonClicked:" destination="P4u-tF-ytc" eventType="touchUpInside" id="93d-GS-VuJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XBS-BG-tfp" firstAttribute="centerY" secondItem="X5J-SN-7th" secondAttribute="centerY" id="0p8-BE-7D7"/>
+                            <constraint firstItem="ucd-bQ-KUU" firstAttribute="trailing" secondItem="fly-PV-KvS" secondAttribute="trailing" constant="10" id="BXs-Wm-lv8"/>
+                            <constraint firstItem="lHR-d0-Yi4" firstAttribute="top" secondItem="X5J-SN-7th" secondAttribute="bottom" constant="100" id="N5r-pl-Ysm"/>
+                            <constraint firstItem="fly-PV-KvS" firstAttribute="leading" secondItem="XBS-BG-tfp" secondAttribute="trailing" constant="83" id="Rzo-tt-VBm"/>
+                            <constraint firstItem="XBS-BG-tfp" firstAttribute="leading" secondItem="ucd-bQ-KUU" secondAttribute="leading" constant="10" id="bQ2-tJ-tDo"/>
+                            <constraint firstItem="X5J-SN-7th" firstAttribute="centerX" secondItem="Edp-gK-DYZ" secondAttribute="centerX" id="p0K-jZ-BFj"/>
+                            <constraint firstItem="fly-PV-KvS" firstAttribute="centerY" secondItem="X5J-SN-7th" secondAttribute="centerY" id="uyK-xa-ZV2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ucd-bQ-KUU"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jlw-EL-3Qa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-84" y="193"/>
+        </scene>
+        <!--Deals Controller-->
+        <scene sceneID="rqn-TA-zNe">
+            <objects>
+                <viewController storyboardIdentifier="DealsController" id="niD-66-wK9" customClass="DealsController" customModule="cashbackModule" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hxt-aR-sDk"/>
+                        <viewControllerLayoutGuide type="bottom" id="iUE-nc-2MK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9ej-is-dp1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.94117647059999998" green="0.3458683568" blue="0.31608328530000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fp4-Ls-53F"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8iM-p8-1dq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="702" y="193"/>
+        </scene>
+        <!--Location Controller-->
+        <scene sceneID="vVz-gu-gdB">
+            <objects>
+                <viewController storyboardIdentifier="LocationController" id="jM3-Zg-qq5" customClass="LocationController" customModule="cashbackModule" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Ix-tf-mff"/>
+                        <viewControllerLayoutGuide type="bottom" id="lW5-FY-Jae"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3hS-Aj-AZq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.5598144531" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="fQW-Ew-bg8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zsi-mG-ZJa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1481" y="193"/>
+        </scene>
+        <!--Followers Controller-->
+        <scene sceneID="7Rh-HH-crw">
+            <objects>
+                <viewController storyboardIdentifier="FollowersController" id="adE-xt-sA0" customClass="FollowersController" customModule="cashbackModule" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OGL-8r-K6h"/>
+                        <viewControllerLayoutGuide type="bottom" id="W9V-a4-eK8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EEs-VL-dhx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.9192502669" green="0.93470415610000002" blue="0.6329870581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Wof-v3-gW3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SeZ-m7-mok" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2249" y="193"/>
+        </scene>
+    </scenes>
+</document>
