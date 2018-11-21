@@ -3,4 +3,6 @@ enum Storyboards: String {
     case Start = "Start"
     case Cashback = "Cashback"
     case LaunchScreen = "LaunchScreen"
+    
+    case FakeStart = "FakeStart"
 }
