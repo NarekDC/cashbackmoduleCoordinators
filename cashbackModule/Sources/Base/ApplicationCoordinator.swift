@@ -1,4 +1,5 @@
 final class ApplicationCoordinator: BaseCoordinator {
+  
   private let coordinatorFactory: CoordinatorFactory
   private let router: Router
   
@@ -8,13 +9,13 @@ final class ApplicationCoordinator: BaseCoordinator {
   }
   
   override func start() {
-        runSettingsFlow()
+     runMainFlow()
   }
-  
-   private func runSettingsFlow() {
-        let coordinator = coordinatorFactory.makeSettingsCoordinator()
+    
+    private func runMainFlow() {
+        let (coordinator, module) = coordinatorFactory.makeTabbarCoordinator()
         addDependency(coordinator)
+        router.setRootModule(module, hideBar: true)
         coordinator.start()
-   }
-
+    }
 }

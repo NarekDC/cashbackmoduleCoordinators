@@ -9,10 +9,24 @@ final class CoordinatorFactoryImp: CoordinatorFactory {
     return coordinator
   }
     
-  func makeCashbackCoordinatorBox(router: Router) -> Coordinator & CashbackCoordinatorOutput {
-    let coordinator = CashbackCoordinator(router: router, factory: ModuleFactoryImp())
-    return coordinator
-  }
+    func makeCashbackCoordinator() -> Coordinator & CashbackCoordinatorOutput {
+        return makeCashbackCoordinator(navController: nil)
+    }
+    
+    func makeCashbackCoordinator(navController: UINavigationController?) -> Coordinator & CashbackCoordinatorOutput {
+        let coordinator = CashbackCoordinator(
+            router: router(navController),
+            factory: ModuleFactoryImp(),
+            coordinatorFactory: CoordinatorFactoryImp()
+        )
+        return coordinator
+    }
+    
+    func makeTabbarCoordinator() -> (configurator: Coordinator, toPresent: Presentable?) {
+        let controller = TabbarController.controllerFromStoryboard(.Start)
+        let coordinator = TabbarCoordinator(tabbarView: controller, coordinatorFactory: CoordinatorFactoryImp())
+        return (coordinator, controller)
+    }
   
   private func router(_ navController: UINavigationController?) -> Router {
     return RouterImp(rootController: navigationController(navController))
@@ -20,6 +34,6 @@ final class CoordinatorFactoryImp: CoordinatorFactory {
   
   private func navigationController(_ navController: UINavigationController?) -> UINavigationController {
     if let navController = navController { return navController }
-    else { return UINavigationController.controllerFromStoryboard(.Main) }
+    else { return UINavigationController.controllerFromStoryboard(.Start) }
   }
 }

@@ -1,8 +1,8 @@
 final class TabbarController: UITabBarController, UITabBarControllerDelegate, TabbarView {
   
-  var onItemFlowSelect: ((UINavigationController) -> ())?
-  var onSettingsFlowSelect: ((UINavigationController) -> ())?
   var onViewDidLoad: ((UINavigationController) -> ())?
+  var onCashbackFlowSelect: ((UINavigationController) -> ())?
+  var onSettingsFlowSelect: ((UINavigationController) -> ())?
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -17,7 +17,7 @@ final class TabbarController: UITabBarController, UITabBarControllerDelegate, Ta
     guard let controller = viewControllers?[selectedIndex] as? UINavigationController else { return }
     
     if selectedIndex == 0 {
-      onItemFlowSelect?(controller)
+      onCashbackFlowSelect?(controller)
     }
     else if selectedIndex == 1 {
       onSettingsFlowSelect?(controller)

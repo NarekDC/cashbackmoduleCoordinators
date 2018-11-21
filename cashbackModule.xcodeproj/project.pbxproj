@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EB4CB6532199AA1E00280224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6522199AA1E00280224 /* AppDelegate.swift */; };
-		EB4CB6582199AA1E00280224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB6562199AA1E00280224 /* Main.storyboard */; };
 		EB4CB65A2199AA1F00280224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB6592199AA1F00280224 /* Assets.xcassets */; };
 		EB4CB65D2199AA1F00280224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */; };
 		EB4CB6682199AA2000280224 /* cashbackModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4CB6672199AA2000280224 /* cashbackModuleTests.swift */; };
@@ -45,8 +44,10 @@
 		EBD663FF21A426DD0074F379 /* CashbackModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663FE21A426DD0074F379 /* CashbackModuleFactory.swift */; };
 		EBD6640121A429560074F379 /* FollowersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6640021A429560074F379 /* FollowersController.swift */; };
 		EBD6640321A4299A0074F379 /* FollowersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6640221A4299A0074F379 /* FollowersView.swift */; };
-		EBD6641C21A453360074F379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6641B21A453360074F379 /* ViewController.swift */; };
 		EBD6641E21A457ED0074F379 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD6641D21A457ED0074F379 /* Start.storyboard */; };
+		EBD6642021A57EF70074F379 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6641F21A57EF70074F379 /* TabbarView.swift */; };
+		EBD6642221A591C30074F379 /* TabbarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6642121A591C30074F379 /* TabbarCoordinator.swift */; };
+		EBD6642921A593BB0074F379 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6642821A593BB0074F379 /* TabbarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +70,6 @@
 /* Begin PBXFileReference section */
 		EB4CB64F2199AA1E00280224 /* cashbackModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cashbackModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4CB6522199AA1E00280224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EB4CB6572199AA1E00280224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB4CB6592199AA1F00280224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4CB65C2199AA1F00280224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB4CB65E2199AA1F00280224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,8 +112,10 @@
 		EBD663FE21A426DD0074F379 /* CashbackModuleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashbackModuleFactory.swift; sourceTree = "<group>"; };
 		EBD6640021A429560074F379 /* FollowersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersController.swift; sourceTree = "<group>"; };
 		EBD6640221A4299A0074F379 /* FollowersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersView.swift; sourceTree = "<group>"; };
-		EBD6641B21A453360074F379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EBD6641D21A457ED0074F379 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
+		EBD6641F21A57EF70074F379 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+		EBD6642121A591C30074F379 /* TabbarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabbarCoordinator.swift; path = ../../Base/TabbarCoordinator.swift; sourceTree = "<group>"; };
+		EBD6642821A593BB0074F379 /* TabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,7 +211,6 @@
 			isa = PBXGroup;
 			children = (
 				EB4CB6E82199B5E800280224 /* StoryboardsEnum.swift */,
-				EB4CB6562199AA1E00280224 /* Main.storyboard */,
 				EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */,
 				EBD663E821A423660074F379 /* Cashback.storyboard */,
 				EBD663EB21A425B80074F379 /* Settings.storyboard */,
@@ -268,6 +269,7 @@
 		EB4CB7162199C24700280224 /* Flows */ = {
 			isa = PBXGroup;
 			children = (
+				EBD6642321A593780074F379 /* Main Tabbar Flow */,
 				EBD663EA21A425600074F379 /* Settings Flow */,
 				EB4CB7172199C25000280224 /* Cashback Flow */,
 			);
@@ -277,9 +279,10 @@
 		EB4CB7172199C25000280224 /* Cashback Flow */ = {
 			isa = PBXGroup;
 			children = (
-				EBD663F321A426780074F379 /* CashbackCoordinator.swift */,
-				EBD663F521A426780074F379 /* CashbackCoordinatorOutput.swift */,
+				EBD6642A21A596370074F379 /* Model */,
+				EBD6642B21A5963C0074F379 /* Coordinator */,
 				EBD663ED21A426780074F379 /* Controllers */,
+				EBD6642C21A596470074F379 /* Protocols */,
 			);
 			path = "Cashback Flow";
 			sourceTree = "<group>";
@@ -287,10 +290,10 @@
 		EBD663EA21A425600074F379 /* Settings Flow */ = {
 			isa = PBXGroup;
 			children = (
-				EB4CB71E2199C27400280224 /* Setting.swift */,
-				EB4CB7192199C25F00280224 /* SettingsController.swift */,
-				EB4CB7182199C25F00280224 /* SettingsCoordinator.swift */,
-				EB4CB71A2199C26000280224 /* SettingsView.swift */,
+				EBD6642D21A596690074F379 /* Model */,
+				EBD6642E21A596780074F379 /* Coordinator */,
+				EBD6642F21A596880074F379 /* Controllers */,
+				EBD6643021A596930074F379 /* Protocols */,
 			);
 			path = "Settings Flow";
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			children = (
 				EBD663F421A426780074F379 /* CashbackController.swift */,
 				EBD663F021A426780074F379 /* CashbackView.swift */,
+				EBD6641F21A57EF70074F379 /* TabbarView.swift */,
 			);
 			path = Cashback;
 			sourceTree = "<group>";
@@ -365,7 +369,6 @@
 			isa = PBXGroup;
 			children = (
 				EB4CB6522199AA1E00280224 /* AppDelegate.swift */,
-				EBD6641B21A453360074F379 /* ViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -376,6 +379,70 @@
 				EB4CB6592199AA1F00280224 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		EBD6642321A593780074F379 /* Main Tabbar Flow */ = {
+			isa = PBXGroup;
+			children = (
+				EBD6642821A593BB0074F379 /* TabbarController.swift */,
+				EBD6642121A591C30074F379 /* TabbarCoordinator.swift */,
+			);
+			path = "Main Tabbar Flow";
+			sourceTree = "<group>";
+		};
+		EBD6642A21A596370074F379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBD6642B21A5963C0074F379 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				EBD663F321A426780074F379 /* CashbackCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		EBD6642C21A596470074F379 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EBD663F521A426780074F379 /* CashbackCoordinatorOutput.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EBD6642D21A596690074F379 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB71E2199C27400280224 /* Setting.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBD6642E21A596780074F379 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB7182199C25F00280224 /* SettingsCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		EBD6642F21A596880074F379 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB7192199C25F00280224 /* SettingsController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EBD6643021A596930074F379 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB71A2199C26000280224 /* SettingsView.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -485,7 +552,6 @@
 				EB4CB65D2199AA1F00280224 /* LaunchScreen.storyboard in Resources */,
 				EB4CB65A2199AA1F00280224 /* Assets.xcassets in Resources */,
 				EBD663E921A423660074F379 /* Cashback.storyboard in Resources */,
-				EB4CB6582199AA1E00280224 /* Main.storyboard in Resources */,
 				EBD663EC21A425B80074F379 /* Settings.storyboard in Resources */,
 				EBD6641E21A457ED0074F379 /* Start.storyboard in Resources */,
 			);
@@ -524,9 +590,10 @@
 				EB4CB71B2199C26000280224 /* SettingsCoordinator.swift in Sources */,
 				EB4CB7102199C02B00280224 /* CoordinatorFactory.swift in Sources */,
 				EBD663FD21A426780074F379 /* CashbackCoordinatorOutput.swift in Sources */,
+				EBD6642221A591C30074F379 /* TabbarCoordinator.swift in Sources */,
+				EBD6642921A593BB0074F379 /* TabbarController.swift in Sources */,
 				EB4CB6FA2199BF5500280224 /* Coordinator.swift in Sources */,
 				EB4CB70C2199C02B00280224 /* SettingsModuleFactory.swift in Sources */,
-				EBD6641C21A453360074F379 /* ViewController.swift in Sources */,
 				EB4CB6E92199B5E800280224 /* StoryboardsEnum.swift in Sources */,
 				EBD663F921A426780074F379 /* DealsController.swift in Sources */,
 				EBD663F721A426780074F379 /* LocationView.swift in Sources */,
@@ -539,6 +606,7 @@
 				EB4CB6FD2199BFA100280224 /* BaseCoordinator.swift in Sources */,
 				EB4CB6E72199B41600280224 /* UIViewControllerExtension.swift in Sources */,
 				EB4CB6F92199BF5500280224 /* BaseView.swift in Sources */,
+				EBD6642021A57EF70074F379 /* TabbarView.swift in Sources */,
 				EB4CB6E62199B41600280224 /* UIViewExtensions.swift in Sources */,
 				EB4CB6E52199B41600280224 /* NSObjectExtensions.swift in Sources */,
 				EBD6640121A429560074F379 /* FollowersController.swift in Sources */,
@@ -579,14 +647,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EB4CB6562199AA1E00280224 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EB4CB6572199AA1E00280224 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,9 +1,5 @@
-//
-//  TabbarView.swift
-//  cashbackModule
-//
-//  Created by Narek Ektubaryan on 11/21/18.
-//  Copyright © 2018 club16. All rights reserved.
-//
-
-import Foundation
+protocol TabbarView: class {
+    var onCashbackFlowSelect: ((UINavigationController) -> ())? { get set }
+    var onSettingsFlowSelect: ((UINavigationController) -> ())? { get set }
+    var onViewDidLoad: ((UINavigationController) -> ())? { get set }
+}
