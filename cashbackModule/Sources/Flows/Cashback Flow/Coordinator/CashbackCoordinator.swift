@@ -4,10 +4,13 @@ final class CashbackCoordinator: BaseCoordinator, CashbackCoordinatorOutput {
   
   private let factory: CashbackModuleFactory
   private let router: Router
+  private let coordinatorFactory: CoordinatorFactory
+
   
-  init(router: Router, factory: CashbackModuleFactory) {
+    init(router: Router, factory: CashbackModuleFactory, coordinatorFactory: CoordinatorFactory) {
     self.factory = factory
     self.router = router
+    self.coordinatorFactory = coordinatorFactory
   }
   
   override func start() {

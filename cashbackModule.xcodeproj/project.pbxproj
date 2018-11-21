@@ -45,6 +45,8 @@
 		EBD663FF21A426DD0074F379 /* CashbackModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD663FE21A426DD0074F379 /* CashbackModuleFactory.swift */; };
 		EBD6640121A429560074F379 /* FollowersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6640021A429560074F379 /* FollowersController.swift */; };
 		EBD6640321A4299A0074F379 /* FollowersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6640221A4299A0074F379 /* FollowersView.swift */; };
+		EBD6641C21A453360074F379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD6641B21A453360074F379 /* ViewController.swift */; };
+		EBD6641E21A457ED0074F379 /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBD6641D21A457ED0074F379 /* Start.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,8 @@
 		EBD663FE21A426DD0074F379 /* CashbackModuleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CashbackModuleFactory.swift; sourceTree = "<group>"; };
 		EBD6640021A429560074F379 /* FollowersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersController.swift; sourceTree = "<group>"; };
 		EBD6640221A4299A0074F379 /* FollowersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersView.swift; sourceTree = "<group>"; };
+		EBD6641B21A453360074F379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBD6641D21A457ED0074F379 /* Start.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Start.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,9 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				EB4CB6DF2199B37500280224 /* Sources */,
-				EB4CB6522199AA1E00280224 /* AppDelegate.swift */,
-				EB4CB6FE2199C00200280224 /* ApplicationCoordinator.swift */,
-				EB4CB6592199AA1F00280224 /* Assets.xcassets */,
+				EBD6641721A44EDC0074F379 /* Resources */,
+				EBD6641621A44EC80074F379 /* Core */,
 				EB4CB65E2199AA1F00280224 /* Info.plist */,
 			);
 			path = cashbackModule;
@@ -210,6 +213,7 @@
 				EB4CB65B2199AA1F00280224 /* LaunchScreen.storyboard */,
 				EBD663E821A423660074F379 /* Cashback.storyboard */,
 				EBD663EB21A425B80074F379 /* Settings.storyboard */,
+				EBD6641D21A457ED0074F379 /* Start.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -238,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				EB4CB6FC2199BFA100280224 /* BaseCoordinator.swift */,
+				EB4CB6FE2199C00200280224 /* ApplicationCoordinator.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -356,6 +361,23 @@
 			path = Parts;
 			sourceTree = "<group>";
 		};
+		EBD6641621A44EC80074F379 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB6522199AA1E00280224 /* AppDelegate.swift */,
+				EBD6641B21A453360074F379 /* ViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EBD6641721A44EDC0074F379 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CB6592199AA1F00280224 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -465,6 +487,7 @@
 				EBD663E921A423660074F379 /* Cashback.storyboard in Resources */,
 				EB4CB6582199AA1E00280224 /* Main.storyboard in Resources */,
 				EBD663EC21A425B80074F379 /* Settings.storyboard in Resources */,
+				EBD6641E21A457ED0074F379 /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +526,7 @@
 				EBD663FD21A426780074F379 /* CashbackCoordinatorOutput.swift in Sources */,
 				EB4CB6FA2199BF5500280224 /* Coordinator.swift in Sources */,
 				EB4CB70C2199C02B00280224 /* SettingsModuleFactory.swift in Sources */,
+				EBD6641C21A453360074F379 /* ViewController.swift in Sources */,
 				EB4CB6E92199B5E800280224 /* StoryboardsEnum.swift in Sources */,
 				EBD663F921A426780074F379 /* DealsController.swift in Sources */,
 				EBD663F721A426780074F379 /* LocationView.swift in Sources */,
